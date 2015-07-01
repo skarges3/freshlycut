@@ -14,3 +14,12 @@ section {
 	color: #E9F2FA;
 	font-weight: 700;
 }
+
+.top2 {
+	background-color: #ffffff;
+	text-align: center;
+}
+
+.top2 h1 {
+	font-weight: 700;
+}
