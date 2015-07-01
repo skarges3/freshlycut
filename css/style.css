@@ -35,8 +35,9 @@ section {
 	font-family: coranto-2-headline, "coranto-2-headline", "Coranto 2 Headline";
 	font-weight: 700;
 	text-align: left;
-	padding: 2em;
+	padding: 2em 0em;
 	margin: 0;
+	font-size: 3em;
 }
 
 @media only screen and (min-width: 1500px) {
@@ -51,6 +52,11 @@ section {
 		height: 70vh;
 		padding: 10em 0em;
 	}
+	
+	.top2 h2 {
+		font-size: 2em;
+	}
+	
 }
 
 @media only screen and (max-width: 400px) {
