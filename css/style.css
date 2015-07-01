@@ -1,0 +1,16 @@
+section {
+	background-color: #CC401F;
+	color: #E9F2FA;
+	height: 90vh;
+}
+
+.top {
+	padding-top: 23vh;
+	color: #E9F2FA;
+	text-align: center;
+}
+
+.top h1 {
+	color: #E9F2FA;
+	font-weight: 700;
+}
