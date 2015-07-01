@@ -20,6 +20,9 @@ section {
 	text-align: center;
 }
 
-.top2 h1 {
+.top2 h2 {
+	font-family: "Coranto 2";
 	font-weight: 700;
+	text-align: left;
+	padding: 2em;
 }
