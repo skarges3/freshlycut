@@ -32,7 +32,7 @@ section {
 }
 
 .top2 h2 {
-	font-family: "Coranto 2";
+	font-family: coranto-2-headline, "coranto-2-headline", "Coranto 2 Headline";
 	font-weight: 700;
 	text-align: left;
 	padding: 2em;
