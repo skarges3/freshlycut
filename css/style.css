@@ -1,13 +1,18 @@
 section {
 	background-color: #CC401F;
 	color: #E9F2FA;
-	min-height: 50vh;
+}
+
+.remove-padding {
+	padding: 0;
+	margin: 0 auto;
 }
 
 .top {
 	padding: 7em 0em;
 	color: #E9F2FA;
 	text-align: center;
+	height: 70vh;
 }
 
 .top h1, .top h4 {
@@ -18,6 +23,12 @@ section {
 .top2 {
 	background-color: #ffffff;
 	text-align: center;
+	padding: 0;
+}
+
+.top2 img {
+	padding: 0;
+	margin: 0;
 }
 
 .top2 h2 {
@@ -25,4 +36,26 @@ section {
 	font-weight: 700;
 	text-align: left;
 	padding: 2em;
+	margin: 0;
+}
+
+@media only screen and (min-width: 1500px) {
+	.top {
+		height: 90vh;
+		padding: 10em 0em;
+	}
+}
+
+@media only screen and (max-width: 800px) {
+	.top {
+		height: 70vh;
+		padding: 10em 0em;
+	}
+}
+
+@media only screen and (max-width: 400px) {
+	.top {
+		height: 80vh;
+		padding: 15em 0em;
+	}
 }
