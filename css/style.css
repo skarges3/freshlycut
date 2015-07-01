@@ -24,6 +24,8 @@ section {
 	background-color: #ffffff;
 	text-align: center;
 	padding: 0;
+	padding: 7em 0em;
+	height: 70vh;
 }
 
 .top2 img {
@@ -35,20 +37,20 @@ section {
 	font-family: coranto-2-headline, "coranto-2-headline", "Coranto 2 Headline";
 	font-weight: 700;
 	text-align: left;
-	padding: 2em 0em;
 	margin: 0;
-	font-size: 3em;
+	font-size: 2.5em;
+		padding: 0.43em 0.6em;
 }
 
 @media only screen and (min-width: 1500px) {
-	.top {
+	.top, top2 {
 		height: 90vh;
 		padding: 10em 0em;
 	}
 }
 
 @media only screen and (max-width: 800px) {
-	.top {
+	.top, .top2 {
 		height: 70vh;
 		padding: 10em 0em;
 	}
