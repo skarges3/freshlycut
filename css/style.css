@@ -6,15 +6,30 @@ section {
 .slide {
 	background-color: #fff;
 	height: 100vh;
-	padding: 1.2em;
+	padding: 2.2em;
 	padding-top: 28vh;
 	text-align: center;
 }
 
 .slide h1 {
 	line-height: 1;
-	margin: 0;
+	margin: 0 auto;
 }
+
+.slide h1:nth-child(1) {
+	margin-right: -4%;
+}
+
+.slide h1:nth-child(3) {
+	margin-left: -4%;
+}
+
+.slide h1:nth-child(2) {
+	margin-left: -2%;
+	margin-right: -2%;
+}
+
+
 
 #tagline {
 	margin-top: 50px;
@@ -110,6 +125,9 @@ section {
 		min-height: 90vh;
 		padding: 10em 0em;
 	}
+	.contain {
+	padding: 0em 10em;
+}
 }
 
 @media only screen and (max-width: 800px) {
