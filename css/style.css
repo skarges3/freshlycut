@@ -61,25 +61,6 @@ section {
 	width: 60px;
 }
 
-.card {
-	
-}
-
-.case {
-	padding: 2em;
-	filter: opacity(0.7);
-	-webkit-filter: opacity(0.7);
-	box-shadow: 2px 2px 2px #ddd;
-	border-radius: 5px;
-}
-
-.case:hover {
-	filter: opacity(0.9);
-	-webkit-filter: opacity(0.9);
-	transition: 0.3s;
-	-webkit-transition: 0.3s;
-}
-
 .casestudies {
 	background-image: url(https://static.pexels.com/photos/7304/pexels-photo-large.jpeg);
 	background-size: cover;
@@ -109,19 +90,26 @@ section {
 }
 
 .top2 {
-	background-color: #fafafa;
+	background-color: rgba(144,192,229,0.1);
 	text-align: center;
 	padding: 0;
 	padding: 5em 0em;
 	min-height: 80vh;
+	border-bottom: 2px solid rgba(144,192,229,0.4);
+	border-top: 2px solid rgba(144,192,229,0.4);
 }
 
 .work {
-	background-color: #fafafa;
+	background-color: #fff;
 	text-align: center;
 	padding: 0;
 	padding: 5em 0em;
 	min-height: 80vh;	
+}
+
+.work h3 {
+	font-weight: 700;
+	letter-spacing: 3px;
 }
 
 .work img {
@@ -129,6 +117,26 @@ section {
 	-webkit-filter: saturate(0);
 	padding: 1em;
 	max-width: 300px;
+}
+
+.work img:hover {
+	filter: saturate(1);
+	-webkit-filter: saturate(1);
+	transition-duration: 0.3s;
+}
+
+a.casestudy {
+	display: block;
+	width: 300px;
+	margin: auto;
+	background-color: #CC041F;
+	color: #fff;
+	padding: 1em;
+}
+
+a.casestudy img {
+	width: 20%;
+	padding: 0;
 }
 
 .top2 img {
@@ -171,7 +179,7 @@ section {
 
 @media only screen and (max-width: 800px) {
 	.top, .top2 {
-		min-height: 100vh;
+		min-height: 80vh;
 		padding: 2em 0em;
 	}
 	
