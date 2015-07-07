@@ -3,11 +3,15 @@ section {
 	color: #E9F2FA;
 }
 
+.slide2{
+	minheight: 100vh;
+}
+
 .slide {
 	background-color: #fff;
-	height: 100vh;
+	min-height: 70vh;
 	padding: 2.2em 4em;
-	padding-top: 28vh;
+	padding-top: 20vh;
 	text-align: center;
 }
 
@@ -31,15 +35,16 @@ section {
 
 #tagline {
 	font-family: coranto-2-headline, "coranto-2-headline", "Coranto 2 Headline";
-	margin-top: 50px;
+	margin-top: 60px;
 	font-weight: 900;
 	-webkit-animation-delay: 1s;
 	animation-delay: 1s;
 	-webkit-animation-duration: 2s;
 	animation-duration: 2s;
+	font-size: 2em;
 }
 
-.containthis {
+.top2 {
 	-webkit-animation-delay: 2.5s;
 	animation-delay: 2.5s;
 	-webkit-animation-duration: 2s;
@@ -75,8 +80,19 @@ section {
 	-webkit-transition: 0.3s;
 }
 
+.casestudies {
+	background-image: url(https://static.pexels.com/photos/7304/pexels-photo-large.jpeg);
+	background-size: cover;
+	height: 40vh;
+}
+
 .remove-padding {
 	padding: 0;
+	margin: 0 auto;
+}
+
+.less-padding {
+	padding: 5px;
 	margin: 0 auto;
 }
 
@@ -93,11 +109,11 @@ section {
 }
 
 .top2 {
-	background-color: #ffffff;
+	background-color: #fafafa;
 	text-align: center;
 	padding: 0;
-	padding: 6em 0em;
-	min-height: 70vh;
+	padding: 5em 0em;
+	min-height: 100vh;
 }
 
 .top2 img {
@@ -110,8 +126,17 @@ section {
 	font-weight: 700;
 	text-align: left;
 	margin: 0;
-	font-size: 2.5em;
-		padding: 0.43em 0.6em;
+	font-size: 2em;
+/*	padding: 0.43em 0.6em;*/
+	line-height: 1.125;
+}
+
+.top2 h4 {
+	font-family: coranto-2, "coranto-2", "Coranto 2";
+	font-weight: 100;
+	text-align: left;
+/*	padding: 0.43em 0.6em;*/
+	color: #777;
 }
 
 .coranto {
@@ -119,24 +144,25 @@ section {
 	font-weight: 700;
 }
 
-@media only screen and (min-width: 1500px) {
+@media only screen and (min-width: 1200px) {
 	.top, top2 {
-		min-height: 90vh;
+		min-height: 100vh;
 		padding: 10em 0em;
 	}
 	.contain {
 	padding: 0em 10em;
-}
+	}
 }
 
 @media only screen and (max-width: 800px) {
 	.top, .top2 {
-		min-height: 70vh;
-		padding: 10em 0em;
+		min-height: 100vh;
+		padding: 2em 0em;
 	}
 	
 	.top2 h2 {
 		font-size: 2em;
+		line-height: 
 	}
 	
 }
@@ -148,9 +174,6 @@ section {
 }
 
 @media only screen and (max-width: 400px) {
-	.top {
-		min-height: 80vh;
-		padding: 15em 0em;
-	}
+
 
 }
