@@ -122,7 +122,7 @@ section {
 }
 
 .top2 h2 {
-	font-family: coranto-2-headline, "coranto-2-headline", "Coranto 2 Headline";
+	font-family: coranto-2-headline, "coranto-2-headline", serif;
 	font-weight: 700;
 	text-align: left;
 	margin: 0;
@@ -132,7 +132,7 @@ section {
 }
 
 .top2 h4 {
-	font-family: coranto-2, "coranto-2", "Coranto 2";
+	font-family: coranto-2, "coranto-2", serif;
 	font-weight: 100;
 	text-align: left;
 /*	padding: 0.43em 0.6em;*/
