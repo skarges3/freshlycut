@@ -9,7 +9,7 @@ section {
 
 .slide {
 	background-color: #fff;
-	min-height: 70vh;
+	min-height: 80vh;
 	padding: 2.2em 4em;
 	padding-top: 20vh;
 	text-align: center;
@@ -122,7 +122,7 @@ section {
 }
 
 .top2 h2 {
-	font-family: coranto-2-headline, "coranto-2-headline", serif;
+	font-family: coranto-2-headline, "coranto-2-headline", "Coranto 2 Headline", "Hoefler Text", Georgia, serif;
 	font-weight: 700;
 	text-align: left;
 	margin: 0;
@@ -132,7 +132,7 @@ section {
 }
 
 .top2 h4 {
-	font-family: coranto-2, "coranto-2", serif;
+	font-family: coranto-2, "coranto-2", "Coranto 2", "Hoefler Text", Georgia, serif;
 	font-weight: 100;
 	text-align: left;
 /*	padding: 0.43em 0.6em;*/
@@ -140,7 +140,7 @@ section {
 }
 
 .coranto {
-	font-family: coranto-2-headline, "coranto-2-headline", "Coranto 2 Headline";
+	font-family: coranto-2-headline, "coranto-2-headline", "Coranto 2 Headline", "Hoefler Text", Georgia, serif;
 	font-weight: 700;
 }
 
@@ -169,7 +169,7 @@ section {
 
 @media only screen and (max-width: 500px) {
 	.slide {
-		padding: 11em 1.5em;
+		padding: 11em 1.5em 1em 1.5em;
 	}
 }
 
