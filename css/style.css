@@ -6,7 +6,7 @@ section {
 .slide {
 	background-color: #fff;
 	height: 100vh;
-	padding: 2.2em;
+	padding: 2.2em 4em;
 	padding-top: 28vh;
 	text-align: center;
 }
@@ -141,9 +141,16 @@ section {
 	
 }
 
+@media only screen and (max-width: 500px) {
+	.slide {
+		padding: 11em 1.5em;
+	}
+}
+
 @media only screen and (max-width: 400px) {
 	.top {
 		min-height: 80vh;
 		padding: 15em 0em;
 	}
+
 }
