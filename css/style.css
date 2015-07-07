@@ -29,11 +29,10 @@ section {
 	margin-right: -2%;
 }
 
-
-
 #tagline {
+	font-family: coranto-2-headline, "coranto-2-headline", "Coranto 2 Headline";
 	margin-top: 50px;
-	font-weight: 400;
+	font-weight: 900;
 	-webkit-animation-delay: 1s;
 	animation-delay: 1s;
 	-webkit-animation-duration: 2s;
@@ -48,7 +47,7 @@ section {
 }
 
 .seeourwork {
-	margin-top: 23vh;
+	margin-top: 20vh;
 	-webkit-animation-duration: 4s;
 	animation-duration: 4s;
 }
