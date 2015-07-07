@@ -113,7 +113,22 @@ section {
 	text-align: center;
 	padding: 0;
 	padding: 5em 0em;
-	min-height: 100vh;
+	min-height: 80vh;
+}
+
+.work {
+	background-color: #fafafa;
+	text-align: center;
+	padding: 0;
+	padding: 5em 0em;
+	min-height: 80vh;	
+}
+
+.work img {
+	filter: saturate(0);
+	-webkit-filter: saturate(0);
+	padding: 1em;
+	max-width: 300px;
 }
 
 .top2 img {
@@ -162,7 +177,10 @@ section {
 	
 	.top2 h2 {
 		font-size: 2em;
-		line-height: 
+	}
+	
+	.top2 h4 {
+		font-size: 1.60em;
 	}
 	
 }
